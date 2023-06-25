@@ -1,0 +1,58 @@
+# Notes for https://0xf.at/
+
+Level 1 - Password in source
+
+Level 2 - Password encoded in source
+
+	F12 Dev Console
+	unescape("%30%65%65%39%61") --> "0ee9a"
+
+Level 3 - Password encoded at bottom of the page
+
+	F12 Dev Console
+	unescape("r%20i%20g%20h%20t%20")+""+"p"+"w"+""+"2f7960654" --> "r i g h t pw2f7960654"
+
+Level 4 - 
+
+	F12 Dev Console
+	"f5eb3baf4ea45f1bb4ef1 bab213efaacedff0de2 bfbe1f34d d4cacbbfd04aa5eacd".length == 70
+
+Level 5 - ord('o')+num
+
+Level 6 - eval in console
+
+Level 7 - https://0xf.at//play/solutionforlevel7 (robots.txt)
+
+Level 8 -
+
+	var foo=["\x2F\x62\x61\x63\x6B\x65\x6E\x64\x2E\x70\x68\x70\x3F\x61\x3D\x73\x26\x6C\x3D\x38","\x70\x61\x72\x73\x65","\x72\x65\x73\x75\x6C\x74","\x76\x61\x6C","\x23\x70\x77","\x67\x65\x74","\x72\x65\x61\x64\x79"];$(document)[foo[6]](function(){$[foo[5]](foo[0],function(_0xa388x1){var _0xa388x2=JSON[foo[1]](_0xa388x1);$(foo[4])[foo[3]](_0xa388x2[foo[2]]);})});
+
+		      0                 1         2        3      4     5        6
+	[ "/backend.php?a=s&l=8", "parse", "result", "val", "#pw", "get", "ready" ]
+
+	$(document)[ready](function(){$[get](/backend.php?a=s&l=8,function(_0xa388x1){var _0xa388x2=JSON[parse]](_0xa388x1);$(#pw)[val](_0xa388x2[result]);})});
+	https://0xf.at/backend.php?a=s&l=8
+	{"status":"OK","result":"bmjbwzebk31sbzff4v840hz6jnabezfy"}
+
+	bmjbwzebk31sbzff4v84ohz6jnabezfy
+
+Level 9 - eval in console and enter password w/ length of moo
+
+Level 10 - copy var value
+
+Level 11 - php format d == two digit day; m == two digit month; Y == four digit year
+
+Level 12 - >>> print(sum([ x for x in range(1,475)]))
+
+Level 13 - use same length entries
+
+Level 14 - https://0xf.at//data/login_info.json; use active account
+
+Level 15 - subtract an additional letter from each position (e.g. aaaaa -> abcde)
+
+Level 16 - >>> base64.b64decode('NDljZjExYjRhYzQwNTljNDg2MjhjNGU3Nw==')
+
+Level 17 - foo@bar.com
+
+Level 18 - https://morsedecoder.com/
+
