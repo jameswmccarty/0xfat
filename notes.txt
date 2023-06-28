@@ -56,3 +56,4 @@ Level 17 - foo@bar.com
 
 Level 18 - https://morsedecoder.com/
 
+Level 23 - Servers are offline.  Looking at the source, the solution is an alpha-numeric string 1/3rd the lenght (rounded up) of the input.
